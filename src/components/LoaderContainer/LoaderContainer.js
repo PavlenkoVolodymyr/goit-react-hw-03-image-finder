@@ -8,10 +8,10 @@ export default function LoaderContainer() {
     <div className={styles.Container}>
       <Loader
         className={styles.Loader}
-        type="Puff"
-        color="#00BFFF"
-        height={80}
-        width={80}
+        type="Circles"
+        color="rgb(91, 202, 124)"
+        height={100}
+        width={100}
       />
     </div>
   );
